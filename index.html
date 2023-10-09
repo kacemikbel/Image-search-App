@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <title>Image Search App</title>
+</head>
+<body class="leading-7">
+    <h1 class=" font-bold text-3xl text-center mb-6 md:mt-12">Image Search App</h1>
+    <form action="" class="flex flex-col md:flex-row justify-center items-center mb-6 md:mb-14">
+        <input type="text" id="search-input" placeholder="Search for images" class="w-full md:w-auto px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-300 focus:outline-none mb-2 md:mb-0">
+        <button class="w-full md:w-auto mt-2 md:mt-0 px-4 py-2 bg-blue-600 text-white border-none text-lg shadow-md cursor-pointer rounded-md md:ml-2">Search</button>
+    </form>
+    <div class="flex flex-wrap justify-center" class="Search-results"">
+        <div class="mb-8 px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4" class="Search-result">
+            <div class="mb-4 w-full h-48 md:h-full rounded-md shadow-md">
+                <img src="https://images.unsplash.com/photo-1682687982185-531d09ec56fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="person swimming" class="w-full h-full hover:opacity-80 object-cover">
+            </div>
+            <a href="https://unsplash.com/photos/V8w0gSmxajY" target="_blank" class="no-underline block text-2xl text-gray-700 p-2 md:p-4 capitalize">Person Swimming</a>
+        </div>
+        
+        <div class="mb-8 px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"  class="Search-result">
+            <div class="mb-4 w-full h-48 md:h-full rounded-md shadow-md">
+                <img src="https://images.unsplash.com/photo-1682687982185-531d09ec56fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="person swimming" class="w-full h-full hover:opacity-80 object-cover">
+            </div>
+            <a href="https://unsplash.com/photos/V8w0gSmxajY" target="_blank" class="no-underline block text-2xl text-gray-700 p-2 md:p-4 capitalize">Person Swimming</a>
+        </div>
+        <div class="mb-8 px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"  class="Search-result">
+            <div class="mb-4 w-full h-48 md:h-full rounded-md shadow-md">
+                <img src="https://images.unsplash.com/photo-1682687982185-531d09ec56fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="person swimming" class="w-full h-full hover:opacity-80 object-cover">
+            </div>
+            <a href="https://unsplash.com/photos/V8w0gSmxajY" target="_blank" class="no-underline block text-2xl text-gray-700 p-2 md:p-4 capitalize">Person Swimming</a>
+        </div>
+      </div>
+    </div>
+    <div  class="min-h-screen flex flex-col justify-between items-center " id="show-more">
+        <div class="flex-grow"></div>
+        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out mb-8  md:block ">Show more</button>
+    </div>
+</body>
+</html>
